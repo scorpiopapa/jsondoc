@@ -99,7 +99,11 @@ ol.linenums li {
 			<div class="container-fluid">
 				<a class="brand" href="#">JSONDoc</a>
 				    <form class="navbar-form pull-left">
-					    <input id="jsondocfetch" class="span5" type="text" placeholder="Insert here the JSONDoc URL" autocomplete="off" />
+					    <!-- <input id="jsondocfetch" class="span5" type="text" placeholder="Insert here the JSONDoc URL" autocomplete="off" /> -->
+					    <select id="jsondocfetch">
+					    	<!-- <option value="http://ec2-54-199-169-243.ap-northeast-1.compute.amazonaws.com:8080/chains/jsondoc">Holly Chains</option> -->
+					    	<option value="http://localhost:8080/chains/jsondoc">Holly Chains</option>
+					    </select>
 					    <button id="getDocButton" class="btn">Get documentation</button>
 					</form>
 			</div>
