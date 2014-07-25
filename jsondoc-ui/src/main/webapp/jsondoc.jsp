@@ -8,7 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/handlebars-1.0.0.beta.6.js"></script>
 <script type="text/javascript" src="js/jlinq.js"></script>
@@ -101,8 +101,7 @@ ol.linenums li {
 				    <form class="navbar-form pull-left">
 					    <!-- <input id="jsondocfetch" class="span5" type="text" placeholder="Insert here the JSONDoc URL" autocomplete="off" /> -->
 					    <select id="jsondocfetch">
-					    	<!-- <option value="http://ec2-54-199-169-243.ap-northeast-1.compute.amazonaws.com:8080/chains/jsondoc">Holly Chains</option> -->
-					    	<option value="http://localhost:8080/chains/jsondoc">Holly Chains</option>
+					    	<option value="http://localhost:8080/spring-mobile/jsondoc">Spring Mobile</option>
 					    </select>
 					    <button id="getDocButton" class="btn">Get documentation</button>
 					</form>
