@@ -101,7 +101,7 @@ ol.linenums li {
 				    <form class="navbar-form pull-left">
 					    <!-- <input id="jsondocfetch" class="span5" type="text" placeholder="Insert here the JSONDoc URL" autocomplete="off" /> -->
 					    <select id="jsondocfetch">
-					    	<option value="http://localhost:8080/spring-mobile/jsondoc">Spring Mobile</option>
+					    	<option value="http://127.0.0.1:8080/chains/jsondoc">Holly Chains</option>
 					    </select>
 					    <button id="getDocButton" class="btn">Get documentation</button>
 					</form>
