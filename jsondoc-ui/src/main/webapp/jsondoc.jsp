@@ -101,7 +101,7 @@ ol.linenums li {
 				    <form class="navbar-form pull-left">
 					    <!-- <input id="jsondocfetch" class="span5" type="text" placeholder="Insert here the JSONDoc URL" autocomplete="off" /> -->
 					    <select id="jsondocfetch">
-					    	<option value="http://localhost/jiayida-mobile/jsondoc">佳艺达手机后台</option>
+					    	<option value="http://localhost/jiayida-mobile/jsondoc.json">佳艺达手机后台</option>
 					    </select>
 					    <button id="getDocButton" class="btn">Get documentation</button>
 					</form>
